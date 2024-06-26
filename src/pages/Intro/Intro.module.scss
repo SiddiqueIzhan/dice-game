@@ -1,0 +1,20 @@
+.contentWrapper {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+
+  .textWrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    h1 {
+      font-size: 96px;
+      font-weight: 700;
+    }
+  }
+}
